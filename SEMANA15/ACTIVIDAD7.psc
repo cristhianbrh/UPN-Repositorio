@@ -191,11 +191,13 @@ Proceso CASO7
 			Escribir "Te falta para completar: ", actualim, " s/.";
 		FinSi
 		
+		Txt2(nameproduct, precio_product, user_pag, corr_bill, corr_mon, billetes[5], billetes[4], billetes[3], billetes[2], billetes[1], monedas[3], monedas[2], monedas[1]);
+		
 	SiNo
 		Escribir "Ups, ingresaste una opción incorrecta";
 	FinSi
 	
-	Txt2(nameproduct, precio_product, user_pag, corr_bill, corr_mon, billetes[5], billetes[4], billetes[3], billetes[2], billetes[1], monedas[3], monedas[2], monedas[1]);
+	
 	
 	
 FinProceso
