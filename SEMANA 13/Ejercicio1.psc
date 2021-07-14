@@ -1,11 +1,11 @@
 Proceso Ejercicio1
-	//Una persona está pensando adquirir una nueva línea y un nuevo equipo celular, pero no sabe
-	//qué operadora contratar. Se solicita desarrollar un algoritmo que simule un sistema experto
-	//que ayude al usuario a tomar una decisión. Para ello tienes que mostrarle información
+	//Una persona estï¿½ pensando adquirir una nueva lï¿½nea y un nuevo equipo celular, pero no sabe
+	//quï¿½ operadora contratar. Se solicita desarrollar un algoritmo que simule un sistema experto
+	//que ayude al usuario a tomar una decisiï¿½n. Para ello tienes que mostrarle informaciï¿½n
 	//siguiendo los criterios. 
 	Definir operador, servicio, celulares, costo Como Entero;
 	Dimension descripcion[3]; Definir correct Como Logico;
-	
+	//Cristhian B.R
 	correct = Verdadero;
 	Escribir "Empresa operadora:";
 	Escribir "  ---------------------------------";
@@ -16,13 +16,13 @@ Proceso Ejercicio1
 	Escribir "|    (4) Entel                      |";
 	Escribir "  ---------------------------------";
 	Escribir "";
-	Escribir "Introduce el número de la operadora para ver las ventajas que tienen.";
+	Escribir "Introduce el nï¿½mero de la operadora para ver las ventajas que tienen.";
 	Leer operador;
 	
 	Segun operador Hacer
 		1:
 			descripcion[1] = "Movistar"
-			Escribir "Para Movistar tenemos los siguientes beneficios según el tipo de servicio."
+			Escribir "Para Movistar tenemos los siguientes beneficios segï¿½n el tipo de servicio."
 			Escribir "(1) Postpago";
 			Escribir "(2) Prepago";
 			Escribir "Selecciona el tipo de servicio";
@@ -30,11 +30,11 @@ Proceso Ejercicio1
 			Segun servicio Hacer
 				1:
 					descripcion[2] = "Postpago";
-					Escribir "Los siguientes celulares están disponibles para postpago:";
+					Escribir "Los siguientes celulares estï¿½n disponibles para postpago:";
 					Escribir "(1) Apple iPhone XR - 2129 S/.";	
 					Escribir "(2) Samsung Galaxy A51 - 1059 S/.";
 					Escribir "(3) Xiaomi Redmi 9 - 459 S/."
-					Escribir "Seleccióna el tipo de celular a comprar.";
+					Escribir "Selecciï¿½na el tipo de celular a comprar.";
 					Leer celulares;
 					Segun celulares Hacer
 						1:
@@ -51,11 +51,11 @@ Proceso Ejercicio1
 					FinSegun
 				2:
 					descripcion[2] = "Prepago";
-					Escribir "Los siguientes celulares están disponibles para prepago:";
+					Escribir "Los siguientes celulares estï¿½n disponibles para prepago:";
 					Escribir "(1) Xiaomi Redmi - (2500 S/.)";	
 					Escribir "(2) Samsung Galaxy S20 - (2000 S/.)";
 					Escribir "(3) Motorola Moto G20 9 - (700 S/.)"
-					Escribir "Seleccióna el tipo de celular a comprar.";
+					Escribir "Selecciï¿½na el tipo de celular a comprar.";
 					Leer celulares;
 					Segun celulares Hacer
 						1:
@@ -75,7 +75,7 @@ Proceso Ejercicio1
 			FinSegun
 		2:
 			descripcion[1] = "Claro"
-			Escribir "Para Claro tenemos los siguientes beneficios según el tipo de servicio."
+			Escribir "Para Claro tenemos los siguientes beneficios segï¿½n el tipo de servicio."
 			Escribir "(1) Postpago";
 			Escribir "(2) Prepago";
 			Escribir "Selecciona el tipo de servicio";
@@ -83,11 +83,11 @@ Proceso Ejercicio1
 			Segun servicio Hacer
 				1:
 					descripcion[2] = "Postpago";
-					Escribir "Los siguientes celulares están disponibles para postpago:";
+					Escribir "Los siguientes celulares estï¿½n disponibles para postpago:";
 					Escribir "(1) Apple iPhone XR - 2129 S/.";	
 					Escribir "(2) Samsung Galaxy A51 - 1059 S/.";
 					Escribir "(3) Xiaomi Redmi 9 - 459 S/."
-					Escribir "Seleccióna el tipo de celular a comprar.";
+					Escribir "Selecciï¿½na el tipo de celular a comprar.";
 					Leer celulares;
 					Segun celulares Hacer
 						1:
@@ -104,11 +104,11 @@ Proceso Ejercicio1
 					FinSegun
 				2:
 					descripcion[2] = "Prepago";
-					Escribir "Los siguientes celulares están disponibles para prepago:";
+					Escribir "Los siguientes celulares estï¿½n disponibles para prepago:";
 					Escribir "(1) Xiaomi Redmi - (2500 S/.)";	
 					Escribir "(2) Samsung Galaxy S20 - (2000 S/.)";
 					Escribir "(3) Motorola Moto G20 9 - (700 S/.)"
-					Escribir "Seleccióna el tipo de celular a comprar.";
+					Escribir "Selecciï¿½na el tipo de celular a comprar.";
 					Leer celulares;
 					Segun celulares Hacer
 						1:
@@ -128,7 +128,7 @@ Proceso Ejercicio1
 			FinSegun
 		3:
 			descripcion[1] = "Bitel"
-			Escribir "Para Bitel tenemos los siguientes beneficios según el tipo de servicio."
+			Escribir "Para Bitel tenemos los siguientes beneficios segï¿½n el tipo de servicio."
 			Escribir "(1) Postpago";
 			Escribir "(2) Prepago";
 			Escribir "Selecciona el tipo de servicio";
@@ -136,11 +136,11 @@ Proceso Ejercicio1
 			Segun servicio Hacer
 				1:
 					descripcion[2] = "Postpago";
-					Escribir "Los siguientes celulares están disponibles para postpago:";
+					Escribir "Los siguientes celulares estï¿½n disponibles para postpago:";
 					Escribir "(1) Apple iPhone XR - 2129 S/.";	
 					Escribir "(2) Samsung Galaxy A51 - 1059 S/.";
 					Escribir "(3) Xiaomi Redmi 9 - 459 S/."
-					Escribir "Seleccióna el tipo de celular a comprar.";
+					Escribir "Selecciï¿½na el tipo de celular a comprar.";
 					Leer celulares;
 					Segun celulares Hacer
 						1:
@@ -157,11 +157,11 @@ Proceso Ejercicio1
 					FinSegun
 				2:
 					descripcion[2] = "Prepago";
-					Escribir "Los siguientes celulares están disponibles para prepago:";
+					Escribir "Los siguientes celulares estï¿½n disponibles para prepago:";
 					Escribir "(1) Xiaomi Redmi - (2500 S/.)";	
 					Escribir "(2) Samsung Galaxy S20 - (2000 S/.)";
 					Escribir "(3) Motorola Moto G20 9 - (700 S/.)"
-					Escribir "Seleccióna el tipo de celular a comprar.";
+					Escribir "Selecciï¿½na el tipo de celular a comprar.";
 					Leer celulares;
 					Segun celulares Hacer
 						1:
@@ -181,7 +181,7 @@ Proceso Ejercicio1
 			FinSegun
 		4:
 			descripcion[1] = "Entel"
-			Escribir "Para Entel tenemos los siguientes beneficios según el tipo de servicio."
+			Escribir "Para Entel tenemos los siguientes beneficios segï¿½n el tipo de servicio."
 			Escribir "(1) Postpago";
 			Escribir "(2) Prepago";
 			Escribir "Selecciona el tipo de servicio";
@@ -189,11 +189,11 @@ Proceso Ejercicio1
 			Segun servicio Hacer
 				1:
 					descripcion[2] = "Postpago";
-					Escribir "Los siguientes celulares están disponibles para postpago:";
+					Escribir "Los siguientes celulares estï¿½n disponibles para postpago:";
 					Escribir "(1) Apple iPhone XR - 2129 S/.";	
 					Escribir "(2) Samsung Galaxy A51 - 1059 S/.";
 					Escribir "(3) Xiaomi Redmi 9 - 459 S/."
-					Escribir "Seleccióna el tipo de celular a comprar.";
+					Escribir "Selecciï¿½na el tipo de celular a comprar.";
 					Leer celulares;
 					Segun celulares Hacer
 						1:
@@ -210,11 +210,11 @@ Proceso Ejercicio1
 					FinSegun
 				2:
 					descripcion[2] = "Prepago";
-					Escribir "Los siguientes celulares están disponibles para prepago:";
+					Escribir "Los siguientes celulares estï¿½n disponibles para prepago:";
 					Escribir "(1) Xiaomi Redmi - (2500 S/.)";	
 					Escribir "(2) Samsung Galaxy S20 - (2000 S/.)";
 					Escribir "(3) Motorola Moto G20 9 - (700 S/.)"
-					Escribir "Seleccióna el tipo de celular a comprar.";
+					Escribir "Selecciï¿½na el tipo de celular a comprar.";
 					Leer celulares;
 					Segun celulares Hacer
 						1:
@@ -240,6 +240,6 @@ Proceso Ejercicio1
 		Escribir "Felicidades, has comprado un ", descripcion[3]," con plan de ", descripcion[2]," en ", descripcion[1], ".";
 		Escribir "Costo del produco: ", costo, " S/.";
 	SiNo
-		Escribir "Escogiste una opción incorrecta";
+		Escribir "Escogiste una opciï¿½n incorrecta";
 	FinSi
 FinProceso

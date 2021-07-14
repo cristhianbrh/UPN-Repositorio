@@ -1,13 +1,13 @@
 Proceso Ejercicio1
-	// Se ingresa por teclado un número entero, e indicar si el número es positivo, nulo o negativo
+	// Se ingresa por teclado un nï¿½mero entero, e indicar si el nï¿½mero es positivo, nulo o negativo
 	
 	Definir user_num Como Real;
 	Definir estado Como Caracter;
 	Definir correct Como Logico;
 	
 	correct = Falso;
-	Escribir "Introduce un número";Leer user_num;
-	
+	Escribir "Introduce un nï¿½mero";Leer user_num;
+	//Cristhian B.R
 	Si user_num > 0 Entonces
 		estado = "positivo";
 		correct = Verdadero;
@@ -24,7 +24,7 @@ Proceso Ejercicio1
 	FinSi
 	
 	Si correct == Verdadero Entonces
-		Escribir "El número ", user_num, " es un número ", estado;
+		Escribir "El nï¿½mero ", user_num, " es un nï¿½mero ", estado;
 	FinSi
 	
 	

@@ -4,15 +4,15 @@ Proceso CASO3
 	
 	DATE[1] = 0;
 	yearb = "";
-	INFODATE[1] = Verdadero; // si cumple como verdadero el día
+	INFODATE[1] = Verdadero; // si cumple como verdadero el dï¿½a
 	INFODATE[2] = Verdadero; // si cumple como verdadero el mes
 	
-	Escribir  "Introduce una fecha en el siguiente orden: día, mes y año (En números)";
+	Escribir  "Introduce una fecha en el siguiente orden: dï¿½a, mes y aï¿½o (En nï¿½meros)";
 	Leer DATE[1], DATE[2], DATE[3];
 	Escribir "";
-	//Cristhian BR
+	//Cristhian B.R
 	Si (DATE[3]%4 == 0) Entonces
-		yearb = "- El año que has introducido es un año bisiesto.";
+		yearb = "- El aï¿½o que has introducido es un aï¿½o bisiesto.";
 		
 		Si DATE[1] >= 29 Entonces
 			INFODATE[1] = Falso;
@@ -28,9 +28,9 @@ Proceso CASO3
 	FinSi
 
 	Si (INFODATE[1] == Falso) o (INFODATE[2] == Falso)
-		Escribir "Lo sentimos, tu información está fuera de los límites.";
+		Escribir "Lo sentimos, tu informaciï¿½n estï¿½ fuera de los lï¿½mites.";
 	SiNo
-		Escribir "Según los datos que has introducido, tus resultados son los siguientes:";
+		Escribir "Segï¿½n los datos que has introducido, tus resultados son los siguientes:";
 		Escribir "- Tus datos introducidos son correctos";
 		Escribir yearb;
 		Escribir "- Fecha: ", DATE[1], " - ", DATE[2], " - ", DATE[3];

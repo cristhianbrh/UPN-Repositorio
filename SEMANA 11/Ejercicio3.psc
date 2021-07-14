@@ -1,11 +1,11 @@
 Proceso sin_titulo
-	// Diseñe un algoritmo para indicar el nivel de logro de un estudiante en base a su calificativo
+	// Diseï¿½e un algoritmo para indicar el nivel de logro de un estudiante en base a su calificativo
 	// ingresado, el cual debe ser de 0 a 20. Los niveles de logro son los siguientes.
 	// Niveles de logro Rango de calificados, En inicio 0 - 10, En proceso 11 -14, Logro esperado 15 -17, Logro destacado 18 - 20
 	Definir user_calif Como Entero; Definir estado Como Caracter;
 	
-	Escribir "Introduce la calificación del estudiante"; Leer user_calif;
-	
+	Escribir "Introduce la calificaciï¿½n del estudiante"; Leer user_calif;
+	//Cristhian B.R
 	Si user_calif <= 20 y user_calif >= 0 Entonces
 		Segun user_calif Hacer
 			0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 :
@@ -18,9 +18,9 @@ Proceso sin_titulo
 				estado = "logro destacado";
 		Fin Segun
 		
-		Escribir "Tu nivel de logro según tu calificación es: ", estado, ".";
+		Escribir "Tu nivel de logro segï¿½n tu calificaciï¿½n es: ", estado, ".";
 	SiNo
-		Escribir  "Has introducido un número inválido";
+		Escribir  "Has introducido un nï¿½mero invï¿½lido";
 	FinSi
 	
 FinProceso
